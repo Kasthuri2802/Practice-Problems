@@ -16,7 +16,7 @@ int transitionPoint(int a[],int n)
         {
             return mid;
         }
-        else if (a[mid]==1)
+        else if (a[mid]==1 && a[mid-1]==1)
         {
             flag = 1;
             right = mid - 1;
@@ -25,14 +25,11 @@ int transitionPoint(int a[],int n)
         {
             left = mid + 1;
         }
-        if(flag==0)
+    }
+    if(flag==0)
         {
             return -1;
         }
-
-
-    }
-
 }
 int main ()
 {
