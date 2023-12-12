@@ -1,3 +1,7 @@
+
+ // Time complexity for binarySearch = order(log N)
+
+
 #include <stdio.h>
 
 int binarySearch(int a[],int n,int k)
