@@ -54,5 +54,6 @@ int main ()
     {
         printf("\nThere is transition point at the index %d",result);
     }
+    return 0;
 
 }
