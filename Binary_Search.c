@@ -27,8 +27,6 @@ int binarySearch(int a[],int n,int k)
     return -1;
 }
 
-
-
 int main()
 {
     int a[10],i,n,k;
